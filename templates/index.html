@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Voice Chat with LLaMA</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">🦙 <span>Voice Chat with LLaMA</span></header>
+
+    <main id="messages" class="chat-box">
+      <p class="hint">🎙️ Hold the mic and speak to ask a question.</p>
+    </main>
+
+    <footer class="footer">
+      <button id="recordBtn">🎤 Hold to Talk</button>
+    </footer>
+
+    <audio id="audioPlayer" class="hidden" controls></audio>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
