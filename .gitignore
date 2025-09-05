@@ -22,3 +22,7 @@ credentials.json
 token.json
 ffmpeg-7.1.1-full_build/
 ffmpeg-7.1.1-full_build/
+credentials.json
+google_client_id_OAuth.txt
+openai-api-key.txt
+token.json
